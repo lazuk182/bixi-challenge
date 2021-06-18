@@ -7,7 +7,7 @@
 <li class="has-line-data" data-line-start="8" data-line-end="10">I used <a href="https://angular-maps.com/">https://angular-maps.com/</a> for developing the map</li>
 </ul>
 <h2 class="code-line" data-line-start=10 data-line-end=11 ><a id="Build_10"></a>Build</h2>
-<p class="has-line-data" data-line-start="12" data-line-end="14">You need dotnet and npm installed for this project.<br>
+<p class="has-line-data" data-line-start="12" data-line-end="14">You need dotnet and npm updated installed for this project.<br>
 dotnet build execute npm i automatically.</p>
 <p class="has-line-data" data-line-start="15" data-line-end="16">Inside de repository run the following commands:</p>
 <pre><code class="has-line-data" data-line-start="17" data-line-end="21" class="language-sh">dotnet build
