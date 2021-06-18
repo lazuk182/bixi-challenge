@@ -1,0 +1,20 @@
+<h1 id="tableLabel">Stations grid</h1>
+<p *ngIf="!stations"><em>Loading...</em></p>
+<table class='table table-striped' aria-labelledby="tableLabel" *ngIf="stations">
+    <thead>
+      <tr>
+        <th (click)="getStations('code')">Code</th>
+        <th (click)="getStations('name')">Name</th>
+        <th (click)="getStations('latitude')">Latitude</th>
+        <th (click)="getStations('longitude')">Longitude</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let station of stations">
+        <td>{{ station.code }}</td>
+        <td>{{ station.name }}</td>
+        <td>{{ station.latitude }}</td>
+        <td>{{ station.longitude }}</td>
+      </tr>
+    </tbody>
+  </table>
